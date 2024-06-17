@@ -3,6 +3,8 @@ import './App.css'
 import  Header  from './Components/header/Header'
 import Footer  from './Components/footer/Footer'  
 import  Home  from './Components/home/Home'
+import { Accounts } from "./Components/account/Account";
+import { Help } from "./Components/help/Help";
 
 
 function App() {
@@ -14,10 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
 
-        {/* <Route path="Help" element={<History/>} />
+        <Route path="Help" element={<Help/>} /> 
 
-        <Route path="Account" element={<Mission/>} />
-         */}
+        <Route path="Account" element={<Accounts/>} />
+         
       </Routes>
       <Footer />
     </div>
