@@ -1,0 +1,13 @@
+.img-200{
+    width: 2000px;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: top 50px;
+}
+
+.img-liverpool{
+    width: 2000px;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: top;
+}
